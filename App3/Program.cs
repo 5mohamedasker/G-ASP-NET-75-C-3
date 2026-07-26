@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Drawing;
+using System.Security.Cryptography;
 using System.Threading.Channels;
 
 namespace App3
@@ -15,6 +16,14 @@ namespace App3
             //string upperTitle = title.ToUpper();
             //Console.WriteLine(title);
             //Console.WriteLine(upperTitle);
+            #endregion
+            #region Question02
+            ////2. Declare two separate string variables,
+            ////both set to the literal "Clean Code".Use ReferenceEquals()
+            ////to check if they point to the same object in memory.
+            //string x = "Clean code";
+            //string y = "Clean code";
+            //Console.WriteLine( object.ReferenceEquals(x , y) );
             #endregion
         }
     }
