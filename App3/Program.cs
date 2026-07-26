@@ -135,6 +135,16 @@ namespace App3
             //    index++;
             //}
             #endregion
+            #region Question014
+            ////14.Write a do-while loop that prints "Checking book..."
+            ////exactly 3 times.
+            //int times = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    times++;
+            //} while (times<3);
+            #endregion
         }
     }
 }
