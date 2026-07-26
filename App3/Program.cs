@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Channels;
@@ -7,6 +8,20 @@ namespace App3
 {
     internal class Program
     {
+        #region Question018
+        ////18.Write a method PrintFirstBook()
+        ////that prints the first book in the books array.
+        ////If the array is empty,
+        ////use return to exit the method early instead of printing anything.
+        //public static void PrintFirstBook(string[] books)
+        //{
+        //    if (books.Length == 0 || books==null)
+        //    {
+        //        return;
+        //    }
+        //    Console.WriteLine(books[0]);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question01
