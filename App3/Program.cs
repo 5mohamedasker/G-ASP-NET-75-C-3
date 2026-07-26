@@ -104,6 +104,15 @@ namespace App3
             //        break;
             //}
             #endregion
+            #region Question011
+            ////11.Given int pages = 464;
+            ////use the ternary operator to store "Long Book" or "Short Book"
+            ////into avariable sizeLabel
+            ////(same rule as question 8: long if pages > 300).
+            //int pages = 464;
+            //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            //Console.WriteLine(sizeLabel);
+            #endregion
         }
     }
 }
